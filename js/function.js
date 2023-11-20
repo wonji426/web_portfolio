@@ -29,6 +29,29 @@ var couponClose = function(){
   $(".popup").hide();
 }
 
+function showAlert() {
+  // 브라우저 창에 알림창 띄우기
+  window.alert('알림: 버튼이 클릭되었습니다!');
+}
+
+function openNewTab() {
+  // 새로운 탭 열기
+  window.open('https://github.com/wonji426', '_blank');
+}
+
+function changeLocation() {
+  // 현재 창의 URL 변경
+  window.location.href = 'https://github.com/wonji426';
+}
+
+function showWindowSize() {
+  // 현재 창의 너비와 높이 출력
+  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+  alert('창의 너비: ' + width + ', 높이: ' + height);
+}
+
 $(document).ready(function(){
   cookiedata = document.cookie;
   console.log(cookiedata);
@@ -237,7 +260,3 @@ $(document).ready(function(){
       $gall.fadeOut();
     });//end of design
   });//end of section handler
-  
-  
-  
-  

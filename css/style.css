@@ -29,7 +29,15 @@ header>.container>nav>ul>li:hover>a,header>.container>nav>.gnb>li>a:focus,header
   -1px -1px 0 #000,  
   1px -1px 0 #000,
   -1px 1px 0 #000,
-  1px 1px 0 #000;}
+  1px 1px 0 #000;
+}
+
+
+button {
+  font-family:'Noto Sans KR', sans-serif; width:140px; height:40px; margin:100px 10px 0 0; text-align:center;
+  font-size:16px; font-size:500; color:#000000; background-color:#fff; border:1px solid #425a73; border-radius:5px; transition:all 0.4s;
+}
+button:hover{color:#fff; background-color:#425a73;}
 
 /* section - aboutme */
 #aboutme{position:relative; background-size: cover; width: 100%; height: 1024px; background: url(../images/background/skill_background.png) no-repeat center;}
@@ -120,7 +128,7 @@ header>.container>nav>ul>li:hover>a,header>.container>nav>.gnb>li>a:focus,header
 #portfolio>.container>.view>li>a{float:left; display:block; width:140px; height:40px; margin:100px 10px 0 0; line-height:40px; text-align:center;
   font-size:16px; font-size:500; color:#000000; background-color:#fff; border:1px solid #425a73; border-radius:5px; transition:all 0.4s;}
   /* 5ed3e2 */
-#portfolio>.container>.view>li>a:hover,#portfolio>.container>.view>li>a:focus{color:#fff; background-color:#425a73;}
+#portfolio>.container>.view>li>a:hover{color:#fff; background-color:#425a73;}
 
 /* section - design */
 #design{position:relative; width:1200px; height:960px; margin:0 auto;}
@@ -165,9 +173,8 @@ header>.container>nav>ul>li:hover>a,header>.container>nav>.gnb>li>a:focus,header
 
 /* section - contact */
 #contact{position:relative; overflow:hidden; width:100%; height:860px;}
-#contact>h2{position:absolute; right:40%; top:200px; margin-right:50px; margin-bottom:20px; font-size:70px; font-weight:500; color:#ffffff; letter-spacing:1px; text-align:center;}
-
-#contact>.container{position:absolute; top:50%; left:60%; margin-left:-400px; margin-top:-90px; text-align:center;color:#ffffff;}
+#contact>h2{position:relative; top:200px; font-size:70px; font-weight:500; color:#ffffff; letter-spacing:1px; text-align:center;}
+#contact>.container{position:relative; top:30%; text-align:center;color:#ffffff;}
 #contact>.container>p{font-size:20px; line-height:1.8; letter-spacing:1px;}
 #contact>.container>p+p:before{content:'/'; display:block; padding:20px 0; font-weight:300; font-size:30px; color:#5ed3e2; opacity:0.3;}
 #contact>.container>p+p{margin-bottom:20px; font-size:16px;}
