@@ -18,8 +18,8 @@ header>.container>nav>ul>li:hover>a,header>.container>nav>.gnb>li>a:focus,header
 #home>.container>p{position:absolute; top:60px; font-weight:300; letter-spacing:2px;}
 #home>.container>p:nth-child(1){top:26px; left:60px;}
 #home>.container>p:nth-child(2){right:60px; transform:rotate(90deg);}
-#home>.container>h1{position:absolute; left:0px; bottom:210px; font-weight:700; font-size:135px; color:#ffffff; line-height:0.9; letter-spacing:50px;}
-#home>.container>h1>.name{position:absolute; left:300px; bottom:70px; display:block; width:390px; height:194px; text-indent:-9999px; background-image:url(../images/name_peach.png);}
+#home>.container>h1{position:relative; top: 100px; text-align:center; bottom:210px; font-weight:700; font-size:135px; color:#ffffff; letter-spacing:50px;}
+/* #home>.container>h1>.name{position:absolute; left:300px; bottom:70px; display:block; width:390px; height:194px; text-indent:-9999px; background-image:url(../images/name_peach.png);} */
 #home>.container>div>h1{color: #fff; text-shadow: 
   -1px -1px 0 #000,  
   1px -1px 0 #000,
@@ -174,7 +174,7 @@ button:hover{color:#fff; background-color:#425a73;}
 /* section - contact */
 #contact{position:relative; overflow:hidden; width:100%; height:860px;}
 #contact>h2{position:relative; top:200px; font-size:70px; font-weight:500; color:#ffffff; letter-spacing:1px; text-align:center;}
-#contact>.container{position:relative; top:30%; text-align:center;color:#ffffff;}
+#contact>.container{position:relative; top:30%; text-align:center; color:#ffffff;}
 #contact>.container>p{font-size:20px; line-height:1.8; letter-spacing:1px;}
 #contact>.container>p+p:before{content:'/'; display:block; padding:20px 0; font-weight:300; font-size:30px; color:#5ed3e2; opacity:0.3;}
 #contact>.container>p+p{margin-bottom:20px; font-size:16px;}
